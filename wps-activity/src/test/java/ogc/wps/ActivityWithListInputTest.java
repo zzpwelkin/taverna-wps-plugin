@@ -44,8 +44,8 @@ public class ActivityWithListInputTest {
 		configBean = ExampleActivityConfigurationBeanFactory.newInstance(serviceURI, identifier, version);
 	}
 	
-	@Test
-	@DescriptorKey("ListInputTest")
+	//@Test
+	//@DescriptorKey("ListInputTest")
 	public void executeActivityWithListInputTest() 
 			throws ActivityConfigurationException, InterruptedException, MalformedURLException,IOException
 	{

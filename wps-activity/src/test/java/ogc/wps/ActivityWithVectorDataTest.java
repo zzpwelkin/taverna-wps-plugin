@@ -85,7 +85,7 @@ public class ActivityWithVectorDataTest {
 		// cmd: v.extract input=${localGMLFile} cats=1,2
 	}
 	
-	@Test
+	//@Test
 	public void executeAsync3()
 	throws  ActivityConfigurationException
 	{

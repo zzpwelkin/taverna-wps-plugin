@@ -1,1 +1,2 @@
 ogc.wps.ui.view.WpsProcessActivityContextViewFactory
+ogc.wps.ui.view.WpsProcessActivityInputContextViewFactory

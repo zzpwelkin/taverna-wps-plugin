@@ -93,7 +93,7 @@ public class ChainActivityTest {
 		Assert.assertEquals(HttpFileRequest.getRasterFromHttp(resultRef).length, ((byte[])outputs.get("output")).length);
 	}
 	
-	@Test
+	//@Test
 	public void executeAsyn2() 
 			throws ActivityConfigurationException, InterruptedException, MalformedURLException,
 			IOException,WPSClientException

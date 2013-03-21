@@ -35,7 +35,7 @@ public class ActivityWithRasterDataTest {
 		resLength = HttpFileRequest.getRasterFromHttp(resultRef).length;
 	}
 
-	@Test
+	//@Test
 	public void executeAsynch1() throws Exception {
 		// In(Raster_RawData) --> Out(Raster_RawData)
 		activity.configure(configBean);
@@ -56,7 +56,7 @@ public class ActivityWithRasterDataTest {
 		assertEquals(resLength, ((byte[])outputs.get("output")).length);
 	}
 	
-	@Test
+	//@Test
 	public void executeAsynch2() throws Exception {
 		// In(Raster_RawData) --> Out(Raster_Reference)
 		activity.configure(configBean);
@@ -77,7 +77,7 @@ public class ActivityWithRasterDataTest {
 		assertEquals(resLength, HttpFileRequest.getRasterFromHttp((String)outputs.get("output")).length);
 	}
 	
-	@Test
+	//@Test
 	public void executeAsynch3() throws Exception {
 		// In(Raster_Reference) --> Out(Raster_Reference)
 		activity.configure(configBean);
@@ -98,7 +98,7 @@ public class ActivityWithRasterDataTest {
 		assertEquals(resLength, HttpFileRequest.getRasterFromHttp((String)outputs.get("output")).length);
 	}
 	
-	@Test
+	//@Test
 	public void executeAsynch4() throws Exception {
 		// In(Raster_Reference) --> Out(Raster_RawData)
 		activity.configure(configBean);
