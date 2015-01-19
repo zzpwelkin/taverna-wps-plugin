@@ -24,13 +24,13 @@
 		<dependency>
 			<groupId>org.n52.wps</groupId>
 			<artifactId>52n-wps-parent</artifactId>
-			<version>3.1-SNAPSHOT</version>
+			<version>3.1.0</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>org.n52.wps</groupId>
 			<artifactId>52n-wps-client-lib</artifactId>
-			<version>3.1-SNAPSHOT</version>
+			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
 </project>

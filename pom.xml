@@ -10,11 +10,11 @@
 		<!--  Update according to latest Taverna version in 
 		www.mygrid.org.uk/dev/wiki/display/developer/Maven+module+version+numbers
 		 -->
-		<t2.core.version>1.3</t2.core.version>
-		<t2.activities.version>1.3</t2.activities.version>
-		<t2.ui.api.version>1.3</t2.ui.api.version>
-		<t2.ui.impl.version>1.3</t2.ui.impl.version>
-		<t2.workbench.version>2.3.0</t2.workbench.version>
+		<t2.core.version>1.5</t2.core.version>
+		<t2.activities.version>1.5</t2.activities.version>
+		<t2.ui.api.version>1.5</t2.ui.api.version>
+		<t2.ui.impl.version>1.5</t2.ui.impl.version>
+		<t2.workbench.version>2.5.0</t2.workbench.version>
 	</properties>
 
 	<build>
@@ -100,22 +100,6 @@
 			<id>n52-releases</id>
 			<name>n52 Releases</name>
             <url>http://52north.org/maven/repo/releases</url>
-		</repository>
-		<repository>
-			<!-- The repository that your jars are deployed to -->
-			<id>welkin-repository</id>
-			<name>welkin Repository</name>
-			<url>http://localhost/wps/wpsoutputs/mavern/repository/</url>
-		</repository>
-		<repository>
-			<!-- The repository that your snapshot jars are deployed to -->
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots/>
-			<id>welkin-snapshot-repository</id>
-			<name>welkin snapshot Repository</name>
-			<url>file:///var/www/wps/wpsoutputs/mavern/repository</url>
 		</repository>
 	</repositories>
 
